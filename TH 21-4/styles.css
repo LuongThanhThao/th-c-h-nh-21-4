@@ -1,0 +1,45 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(53, 171, 245);
+    text-align: center;
+    font-family: serif;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 25px;
+    color: #000814;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background-color: #42c9dd;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #0d88a3;
+}
+
+nav ul ul li {
+    display: block;
+}
+
+nav ul ul li a {
+    padding: 10px 30px;
+}
+
+nav ul ul li:hover {
+    background-color: #2bdeee;
+}
